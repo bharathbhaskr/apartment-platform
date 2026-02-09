@@ -1,0 +1,28 @@
+/* CardLayout.css */
+
+.card-layout1{
+  border: 1px solid black;
+  box-shadow: 10px 10px 10px 10px #2a2f4f8b;
+  border-radius: 10px;
+  margin: 20px;
+  background: #ffffff6b;
+  overflow: hidden;
+  height: 100%; /* Set a fixed height for the card */
+}
+
+.card-title1{
+  background: #917FB3;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.card-content1{
+  background: #e5beec87;
+  border-radius: 0 0 10px 10px;
+  padding: 15px;
+  overflow-y: auto; /* Make the content area scrollable if it overflows */
+  max-height: 280px;
+  height: 280px; /* Adjust the max height based on your design */
+}

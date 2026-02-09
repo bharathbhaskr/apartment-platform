@@ -1,0 +1,51 @@
+
+body {
+  background-color: aliceblue;
+}
+#mynav{
+  background-color: #95BDFF;
+  
+}
+@media screen and (max-width: 768px) {
+  #mynav{
+      text-align: center;
+      
+  }
+}
+
+#loginButton {
+  border-radius: 20px;
+ 
+}
+
+.custom-text{
+  letter-spacing: 4px;
+  line-height: 150%;
+  color: black;
+}
+#imageCarousel {
+  background-color: #000; /* Background color for the carousel container */
+}
+
+.carousel-inner {
+  background-color: #000; /* Background color for the slides */
+}
+
+.carousel-caption{
+  color: aliceblue;
+  background-color: rgba(0,0,0,0.4);
+ 
+ width: 100%;
+ left:0;
+ right:0;
+ bottom: 0;
+ padding-bottom: 20px;
+ padding-top: 5px;
+  align-items: center;
+  
+}
+.carousel-inner .carousel-item {
+  text-align: center;
+  color: #fff; /* Text color for slide content */
+}
+

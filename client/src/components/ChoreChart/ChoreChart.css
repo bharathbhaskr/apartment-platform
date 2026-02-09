@@ -1,0 +1,118 @@
+/* .css */
+
+.chore-chart {
+  width: 100%;
+  margin: auto;
+}
+
+.add-chore {
+  margin-bottom: 15px;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+  width: 350px;
+}
+
+.input-container input {
+  width: calc(90% - 10px);
+  padding: 8px;
+  margin-right: 0;
+  border-top-left-radius: 10px; 
+border-bottom-left-radius: 10px;
+}
+
+.add-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 100%;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: #2A2F4F;
+  color: white;
+  outline: none;
+  border-top-right-radius: 10px; 
+border-bottom-right-radius: 10px;
+}
+
+.cc-table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+.cc-td {
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.cc-thead{
+  background-color: #917FB3;
+  color: white;
+  box-shadow: 9px 8px 10px #2a2f4f8b;
+  border:1px solid black;
+}
+.cc-thead th{
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.cc-td:first-child {
+  width: 1%;
+}
+
+.cc-td:nth-child(2) {
+  width: 60%;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.cc-td:nth-child(3) {
+  width: 34%;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+
+t.cc-d:last-child {
+  width: 5%;
+}
+
+.completed {
+  text-decoration: line-through;
+  
+}
+.completed .edit-btn{
+  opacity: 0.7;
+  cursor: not-allowed;
+
+}
+.cc-td div {
+  display: flex;
+  justify-content: space-between;
+}
+/* ... (existing styles) */
+
+.my-btn {
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 8px; /* Set the desired border-radius value for all buttons */
+  background-color: white;
+  border: 2px solid;
+  transition: box-shadow 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.my-btn:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add glow effect on hover */
+}
+
+/* ... (existing styles) */
+
+thead{
+  text-align: center;
+}

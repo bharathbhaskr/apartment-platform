@@ -1,0 +1,97 @@
+/* About.css */
+
+/* Navbar styles */
+#mynav {
+    background-color: #343a40;
+  }
+  
+  #loginButton {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Header styles */
+  .header-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px; /* Reduced margin */
+  }
+  
+  .header-container h1 {
+    color: #343a40;
+  }
+  
+  .header-container p {
+    color: #6c757d;
+  }
+  
+  /* Card styles */
+  .card-container {
+    margin-top: 20px; /* Reduced margin */
+  }
+  
+  .card {
+    width: 100%; /* Full width on small screens */
+    margin-bottom: 20px; /* Reduced margin */
+  }
+  
+  .card-title {
+    color: #343a40;
+  }
+  
+  .card-text {
+    color: #6c757d;
+  }
+  
+  /* Footer styles (optional) */
+  .footer {
+    background-color: #343a40;
+    padding: 20px 0;
+    color: #fff;
+  }
+  
+  .footer h4 {
+    color: #fff;
+  }
+  
+  .footer p {
+    font-size: 14px;
+  }
+  
+  .footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    background-color: #343a40;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Media Query for Small Devices */
+  @media (max-width: 576px) {
+    .header-container {
+      padding: 10px;
+      .col {
+        display: block !important; /* Use !important to override Bootstrap styles */
+      }
+
+    }
+  
+    .card {
+      width: 100%; /* Full width on small screens */
+      margin-bottom: 10px; /* Reduced margin */
+    }
+  
+    .footer {
+      padding: 10px 0;
+    }
+  }
+  

@@ -1,0 +1,69 @@
+.outer-login-container {
+    background: url("../../assets/images/login-01.png") no-repeat center center fixed;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    background: #2a2f4fb3;
+    width: 30%;
+    height: 40vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+
+
+
+  #loginTitle{
+    color:rgba(255, 255, 255, 0.813);
+  }
+
+  form{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .loginmb {
+    width: 100%;
+    max-width: 348px;
+  }
+
+  .form-label{
+    color:rgba(255, 255, 255, 0.813);
+  }
+
+  #signUpButton a{
+    color:white;
+  }
+
+  .signUpButton{
+    color:#E5BEEC;
+  }
+
+  @media (max-width: 1060px) and (min-width: 769px) {
+  
+    .login-container {
+      width: 70%;
+      
+    }
+  }
+
+@media (max-width: 768px) {
+  .outer-login-container {
+    background: url("../../assets/images/login-01.png") no-repeat center top fixed;
+    background-size: cover;
+
+  }
+
+  .login-container {
+    width: 100%;
+    margin: 0;
+  }
+}

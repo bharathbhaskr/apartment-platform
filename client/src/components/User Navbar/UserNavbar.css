@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.navBlock {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none; 
+}
+
+
+.userNav {
+  background-color: #2A2F4F;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.site-title {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none; 
+  text-decoration: none; 
+  margin:0px;
+  height:100%;
+  padding:1rem;
+  width: 100%;
+  display: block;
+  letter-spacing: 10px;
+}
+
+.site-title:hover{
+  color: #917FB3;
+   
+}
+
+.userNav ul {
+  width:100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none; 
+
+}
+
+/* .userNav li.active {
+  background-color: #917FB3;
+}
+
+.userNav li:hover {
+  background-color: #917FB3;
+} */
+
+/* Style for the Link component */
+.link {
+  font-size: 1rem;
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+/* Style for the Link component on hover */
+.link:hover {
+  color: #917FB3;
+  text-decoration: none; 
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for smaller screens */
+
+  .userNav {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center items vertically on smaller screens */
+    padding: 1rem; /* Add some padding for better spacing on smaller screens */
+  }
+
+  .userNav ul {
+    flex-direction: column; /* Stack list items vertically on smaller screens */
+    
+  }
+
+  .site-title {
+    margin:10px;
+    text-decoration: none; 
+    /*margin-bottom: 1rem; Add margin at the bottom for better spacing */
+  }
+}
+
+

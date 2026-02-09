@@ -1,0 +1,34 @@
+ul{
+   list-style: none;
+   padding: 0;
+   
+}
+.code{
+   word-wrap: break-word;
+   margin-bottom: 16px;
+}
+.cool-btn{
+   color: #2A2F4F;
+}
+.popup {
+   
+   left: 50%;
+  transform: translate(60%,-100%);
+   z-index: 100; 
+   
+   position: absolute;
+   color:#2A2F4F;
+ }
+ 
+ .popup.alert-success {
+   animation: fadeInOut 2s ease-out;
+ }
+ 
+ @keyframes fadeInOut {
+   100% {
+     opacity: 0;
+   }
+   50% {
+     opacity: 1;
+   }
+ }

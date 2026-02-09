@@ -1,0 +1,72 @@
+/* ShoppingList.css */
+
+.shopping-list {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .add-task {
+    margin-bottom: 15px;
+  }
+  
+  
+  
+  .sl-table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+  }
+  .sl-thead{
+    background-color: #917FB3;
+    color: white;
+    box-shadow: 9px 8px 10px #2a2f4f8b;
+    border:1px solid black;
+  }
+  .sl-thead th{
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .sl-td {
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .sl-td:first-child {
+    width: 5%;
+   
+  }
+  
+  .sl-td:nth-child(2) {
+    width: 60%;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  
+  .sl-td:last-child {
+    width: 23%;
+  }
+  
+  
+  
+  .sl-td div button {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .sl-thead{
+    text-align: center;
+  }
+
+  /* ShoppingList.css */
+
+.tick {
+  font-size: 2rem; /* Adjust the size of the tick */
+  color: white; /* Adjust the color of the tick */
+  cursor: pointer;
+}
+
+/* ... (other styles) */

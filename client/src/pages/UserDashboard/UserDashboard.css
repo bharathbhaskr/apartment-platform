@@ -1,0 +1,39 @@
+/* UserDashboard.css */
+.body {
+  margin: 0;
+  padding: 0;
+  background: url('../../assets/images/dashboard-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+ 
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows items to wrap to the next line on smaller screens */
+  }
+  .header{
+    background-color: #2A2F4F;
+    padding-top: 5px;
+  }
+  .details{
+    padding: 0;
+  }
+  .details h3{
+    letter-spacing: 10px;
+  }
+  
+  /* Adjust styling as needed */
+  #topNav{
+    background-color: #2A2F4F;
+    color:white;
+    font-style: none;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+   
+}
+.text-center{
+  justify-content: center;
+  align-items: center;
+}

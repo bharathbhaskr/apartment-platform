@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "npm run install-dependencies && concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "install-dependencies": "cd api && npm install && cd ../client && npm install",
+    "start-backend": "cd api && node server.js",
+    "start-frontend": "cd client && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,79 @@
+.cardUser {
+  max-width: 500px; /* Adjusted width */
+  margin: auto;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-img-top-user {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body-user {
+  padding: 20px;
+}
+
+.card-titleUser {
+
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text-user {
+  font-size: 1.5rem;
+  margin-top: 25px;
+}
+
+.btn-user {
+  cursor: pointer;
+}
+
+.btn-primary-user {
+  background-color: #917FB3;
+  color: #fff;
+  margin-right: 5px;
+  margin-left:auto;
+}
+
+.btn-primary-user:hover{
+  background-color: #2A2F4F;
+}
+
+.btn-secondary-user {
+  background-color: #917FB3;
+  color: #fff;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.btn-secondary-user:hover{
+  background-color: #2A2F4F;
+  color:#fff;
+}
+
+
+.btn-info-user {
+  background-color: #917FB3;
+  color: #fff;
+  margin-left: 5px;
+  margin-right:auto;
+}
+
+.btn-info-user:hover{
+  background-color: #2A2F4F;
+}
+
+.btn-link-user {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.btn-link-user:hover {
+  text-decoration: underline;
+}
