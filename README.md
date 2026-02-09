@@ -13,7 +13,7 @@ Apartment Platform is a full-stack application for managing shared living spaces
 The goal of this project is not only feature implementation, but to demonstrate how a backend system is structured, maintained, and evolved toward production readiness.
 
 ---
-
+ 
 ## 🧱 Architecture (Current)
 
 Client (React)
